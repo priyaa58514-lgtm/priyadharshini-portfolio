@@ -25,7 +25,7 @@ const ResumeModal = lazy(() => import('./components/ResumeModal'));
 
 type Stage = 'opening' | 'home';
 
-const STORAGE_KEY = 'priyadharshini-series-profile';
+const STORAGE_KEY = 'priyadharshini-orbit-profile';
 
 function readStoredProfile(): ProfileId | null {
   try {
@@ -39,12 +39,12 @@ function readStoredProfile(): ProfileId | null {
 export default function App() {
   return (
     <SmoothScrollProvider>
-      <Series />
+      <Orbit />
     </SmoothScrollProvider>
   );
 }
 
-function Series() {
+function Orbit() {
   const stored = readStoredProfile();
   const [stage, setStage] = useState<Stage>(stored ? 'home' : 'opening');
   const [profileId, setProfileId] = useState<ProfileId>(stored ?? 'priyadharshini');

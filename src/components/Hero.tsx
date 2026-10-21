@@ -40,11 +40,11 @@ export default function Hero({ onPlay, onResume, profileId }: { onPlay: () => vo
     '2025 – 2028',
     'B.Sc. CS/AI',
     `${projects.length} Projects`,
-    'CGPA 8.75',
+    'CGPA: 7.78',
   ];
 
   const floating = [
-    { text: 'B.Sc. CS/AI', sub: 'DG Vaishnav · CGPA 8.75', pos: 'left-[2%] top-[30%]', depth: 1 },
+    { text: 'B.Sc. CS/AI', sub: 'DG Vaishnav · CGPA: 7.78', pos: 'left-[2%] top-[30%]', depth: 1 },
     { text: `${achievements[0].title}`, sub: 'BuildX 2026 Hackathon', pos: 'right-[0%] top-[18%]', depth: -1 },
     { text: 'Python · SQL · React', sub: 'Primary stack', pos: 'right-[4%] bottom-[24%]', depth: 0.6 },
   ];

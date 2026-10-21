@@ -141,11 +141,11 @@ await sharp({
         <rect width="1200" height="630" fill="url(#goldGlow)"/>
         <line x1="70" y1="200" x2="130" y2="200" stroke="#dfbf7a" stroke-width="3"/>
         <text x="70" y="270" font-family="'Bebas Neue', Impact, 'Arial Narrow', sans-serif" font-size="88" fill="#f5f0e6" letter-spacing="3">PRIYADHARSHINI</text>
-        <text x="72" y="320" font-family="'Inter', Helvetica, Arial, sans-serif" font-weight="700" font-size="22" fill="#dfbf7a" letter-spacing="12">THE SERIES</text>
+        <text x="72" y="320" font-family="'Inter', Helvetica, Arial, sans-serif" font-weight="700" font-size="22" fill="#dfbf7a" letter-spacing="12">P ORBIT</text>
         <text x="72" y="375" font-family="'Inter', Helvetica, Arial, sans-serif" font-weight="600" font-size="14" fill="#b9b1a4" letter-spacing="3">AI STUDENT • FULL-STACK DEVELOPER</text>
         <text x="72" y="405" font-family="'Inter', Helvetica, Arial, sans-serif" font-weight="600" font-size="14" fill="#b9b1a4" letter-spacing="3">PYTHON &amp; DATA ANALYTICS</text>
         <rect x="72" y="445" width="165" height="38" rx="19" fill="#c6a15b"/>
-        <text x="154" y="469" font-family="'Inter', Helvetica, Arial, sans-serif" font-weight="700" font-size="12" fill="#0a0a0a" text-anchor="middle" letter-spacing="2">▶ WATCH SERIES</text>
+        <text x="154" y="469" font-family="'Inter', Helvetica, Arial, sans-serif" font-weight="700" font-size="12" fill="#0a0a0a" text-anchor="middle" letter-spacing="2">▶ EXPLORE ORBIT</text>
       </svg>`),
     },
     { input: ogPortrait, gravity: 'southeast', top: 40, left: 660 },

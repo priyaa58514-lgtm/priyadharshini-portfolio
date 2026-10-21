@@ -93,14 +93,17 @@ export function ProjectArt({ project, className = '' }: { project: Project; clas
   );
 }
 
-/** Small fictional platform mark used in the nav and on cards. */
+/** P ORBIT platform mark used in the nav, hero, and footer. */
 export function SeriesMark({ className = '' }: { className?: string }) {
   return (
-    <span className={`inline-flex items-center gap-1.5 ${className}`}>
+    <span className={`inline-flex items-center gap-1.5 ${className}`} aria-label="P ORBIT">
       <svg viewBox="0 0 26 32" className="h-[1.1em] w-auto" aria-hidden>
         <path d="M6 28 V4 H14 C18.5 4 21 6.5 21 11 C21 15.5 18.5 18 14 18 H6" fill="none" stroke="#c6a15b" strokeWidth="3.5" strokeLinecap="round" strokeLinejoin="round" />
       </svg>
-      <span className="font-sans text-[0.62em] font-bold tracking-[0.36em] text-mist">SERIES</span>
+      <span className="font-sans text-[0.62em] font-bold tracking-[0.3em] text-mist">ORBIT</span>
     </span>
   );
 }
+
+export const OrbitMark = SeriesMark;
+

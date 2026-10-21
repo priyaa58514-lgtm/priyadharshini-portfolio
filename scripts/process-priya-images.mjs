@@ -38,7 +38,7 @@ async function processImages() {
       {
         input: Buffer.from(`<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
           <text x="72" y="270" font-family="Impact, 'Arial Narrow', sans-serif" font-size="104" fill="#f5f0e6" letter-spacing="4">PRIYADHARSHINI</text>
-          <text x="78" y="324" font-family="Helvetica, Arial, sans-serif" font-weight="700" font-size="24" fill="#c6a15b" letter-spacing="14">THE SERIES</text>
+          <text x="78" y="324" font-family="Helvetica, Arial, sans-serif" font-weight="700" font-size="24" fill="#c6a15b" letter-spacing="14">P ORBIT</text>
           <text x="78" y="380" font-family="Helvetica, Arial, sans-serif" font-weight="600" font-size="16" fill="#b9b1a4" letter-spacing="4">AI &amp; ML • FULL-STACK DEVELOPER • CHENNAI</text>
         </svg>`),
       },

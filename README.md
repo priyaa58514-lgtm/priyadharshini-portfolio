@@ -1,7 +1,7 @@
-# PRIYADHARSHINI — THE SERIES
+# PRIYADHARSHINI — P ORBIT
 
 A cinematic, streaming-inspired portfolio for **Priyadharshini**: B.Sc. Computer Science with Artificial Intelligence student & Full-Stack Developer.
-Every section is an episode, every project is an Original, and the whole site plays like a series.
+Branded under **P ORBIT** with an Onyx Black (#0A0A0A) and Champagne Gold (#C6A15B) aesthetic.
 
 > A personal portfolio with a fictional streaming-platform look. Styled in Onyx Black (#0A0A0A) and Champagne Gold (#C6A15B).
 

@@ -48,9 +48,9 @@ export default function ResumeSection({ onView }: { onView: () => void }) {
           </div>
           <dl className="mt-8 grid grid-cols-3 gap-px overflow-hidden rounded-xl bg-white/10 text-center">
             {[
-              { v: '8.75', k: 'CGPA' },
+              { v: '7.78', k: 'CGPA' },
               { v: String(projects.length), k: 'Projects' },
-              { v: String(certifications.length), k: 'Certs' },
+              { v: '1', k: 'internship' },
             ].map((s) => (
               <div key={s.k} className="bg-ink-2 px-2 py-4">
                 <dd className="font-display text-3xl leading-none text-bone">{s.v}</dd>
@@ -123,7 +123,7 @@ export function ResumeSheet() {
                 <p className="text-xs text-smoke">{e.period}</p>
               </div>
               <p className="text-xs text-mist">
-                {e.degree} · <span className="text-bone/80">{e.score}</span>
+                {e.degree}{e.score ? ` · ` : ''}<span className="text-bone/80">{e.score}</span>
               </p>
             </div>
           ))}
@@ -184,11 +184,14 @@ export function ResumeSheet() {
           </ul>
 
           <H>Certifications</H>
-          <p className="text-xs leading-relaxed text-mist">
-            {Array.from(new Set(certifications.map((c) => c.issuer)))
-              .map((iss) => `${iss}: ${certifications.filter((c) => c.issuer === iss).map((c) => c.name).join(', ')}`)
-              .join(' · ')}
-          </p>
+          <ul className="space-y-1.5">
+            {certifications.map((c) => (
+              <li key={c.name} className="text-xs leading-relaxed text-mist">
+                <span className="font-semibold text-bone">{c.name}</span> · {c.issuer}
+                {c.period && <span className="text-smoke"> ({c.period})</span>}
+              </li>
+            ))}
+          </ul>
         </div>
       </div>
     </article>

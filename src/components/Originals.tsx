@@ -23,7 +23,7 @@ function Intro() {
       </p>
       <RevealText as="h2" text="PROJECTS" className="font-display text-[clamp(3.5rem,9vw,8rem)] leading-[0.85] text-bone" />
       <p className="mt-4 max-w-sm text-[15px] leading-relaxed text-mist">
-        Featured applications from the resume — including the BuildX 2026 hackathon-awarded TN Healthcare Scheme Decoder and full-stack Contact Management System. Open any project for the full story.
+        Featured applications from the resume — including the BuildX 2026 hackathon-awarded TN Healthcare Scheme Decoder, SchemeMatch AI, and full-stack Contact Management System. Open any project for the full story.
       </p>
       <p className="mt-6 hidden text-xs tracking-[0.24em] text-smoke lg:block">SCROLL TO BROWSE →</p>
     </div>

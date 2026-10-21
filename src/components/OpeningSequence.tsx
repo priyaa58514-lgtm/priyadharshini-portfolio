@@ -6,12 +6,12 @@ import { EASE, Magnetic } from './fx';
 
 /**
  * The signature moment:
- * black → studio card → PRIYADHARSHINI → THE SERIES → portrait reveal → role → ▶ PLAY
+ * black → studio card → PRIYADHARSHINI → P ORBIT → portrait reveal → role → ▶ PLAY
  */
 const TIMELINE = [
-  { at: 300, beat: 1 }, // studio card
-  { at: 1900, beat: 2 }, // name
-  { at: 2700, beat: 3 }, // THE SERIES
+  { at: 300, beat: 1 }, // studio card: THE ORBIT OF PRIYADHARSHINI
+  { at: 1900, beat: 2 }, // name: PRIYADHARSHINI
+  { at: 2700, beat: 3 }, // P ORBIT
   { at: 3400, beat: 4 }, // portrait
   { at: 4300, beat: 5 }, // role
   { at: 5000, beat: 6 }, // play button
